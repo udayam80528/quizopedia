@@ -1,0 +1,129 @@
+
+body{
+    overflow: hidden;
+}
+.log{
+
+
+
+
+
+border: 3px solid #868686;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+font-family: 'Montserrat', sans-serif;
+min-height: 80vh;
+position: absolute;
+width: 10%;
+height: 60vh;
+left: 37.5%;
+top:10vh ;
+min-width: 23%;
+background: rgba(255, 255, 255, 0.67);
+}
+.ltq{
+    border-radius: 10px;
+    position: absolute;
+width: 80%;
+height: 5vh;
+left:14% ;
+top:5% ;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 44px;
+
+color: #000000;
+
+}
+.ltq:hover{
+   
+    text-decoration-color   :#b3aeb5 ;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+.tb1{
+    position: absolute;
+    width: 70%;
+    height: 6vh;
+    top: 30%;
+    left: 15%;
+    background: #FFFFFF;
+border: 3px solid #C2C2C2;
+backdrop-filter: blur(2px);
+text-align: center;
+font-family: 'Montserrat', sans-serif;
+}
+.tb2{
+    position: absolute;
+    width: 70%;
+    height: 6vh;
+    top: 55%;
+    left: 15%;
+    background: #FFFFFF;
+border: 3px solid #C2C2C2;
+backdrop-filter: blur(2px);
+text-align: center;
+font-family: 'Montserrat', sans-serif;
+}
+.tb1:hover{
+    background-color: #e2dae6;
+}
+.tb2:hover{
+    background-color: #e2dae6;
+}
+.p1{
+    position: absolute;
+    height: 6vh;
+    top: 31%;
+    left: 16%;
+}
+.logb{
+    border: none;
+   position: absolute;
+width: 55%;
+height: 6vh;
+top: 80%;
+left:22.5%;
+text-decoration-color:#ffffff ;
+border-radius: 15px 15px 15px 15px;
+background: #7923BD;
+
+}
+.logb:hover{
+    background-color: #b833f5;  
+
+}
+::placeholder{
+    font-size: 20px;
+}
+
+@media (max-width:1200px) and (min-width:750px) {
+    .log{
+        width: 60%;
+        position: absolute;
+        left: 20%;
+        height: 80vh;
+        
+        top: 10vh;
+        
+    }
+    
+}
+@media (max-width:750px) and (min-width:0px) {
+    .log{
+        width: 60%;
+        position: absolute;
+        left: 20%;
+        height: 80vh;
+        
+        top: 10vh;
+    }
+    .logb{
+        width: 45%;
+        position: absolute;
+        left:26% ;
+    }    
+}
